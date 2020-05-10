@@ -1,3 +1,5 @@
+import pandas as pd
+
 def doOneHotEncode(dataFrame,featureToEncode,dropFeature=False):
     #
     # Create a DF with only the column that needs to be encoded
